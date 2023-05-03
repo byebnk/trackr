@@ -48,6 +48,8 @@ class TrackEntry(models.Model):
     objects = TrackEntryManager()
 
     class Meta:
+        verbose_name = 'Track Entry'
+        verbose_name_plural = 'Track Entries'
         triggers = [
             pgtrigger.ReadOnly(name="read_only")
         ]
