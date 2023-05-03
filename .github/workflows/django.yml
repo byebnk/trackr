@@ -34,3 +34,6 @@ jobs:
     - name: Run Tests
       run: |
         python manage.py test
+    - name: Update package version
+      run: |
+        python setup.py develop
