@@ -12,6 +12,14 @@ INSTALLED_APPS = [
     "trackr",
 ]
 
+# FIXME: This should be an Postgres database
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': 'db.sqlite3',
+    }
+}
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
@@ -39,6 +47,7 @@ MIDDLEWARE = [
 
 settings.configure(
     INSTALLED_APPS=INSTALLED_APPS,
+    DATABASES=DATABASES,
     TEMPLATES=TEMPLATES,
     MIDDLEWARE=MIDDLEWARE,
 )
