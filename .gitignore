@@ -1,3 +1,4 @@
 .tool-versions
 venv
 __pycache__
+*.egg-info
