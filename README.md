@@ -2,7 +2,7 @@
 
 ## Usage
 
-1. Add trackr to your INSTALLED_APPS settings
+1. Add trackr to your ```INSTALLED_APPS``` settings
 2. Run ```python manage.py migrate``` to create the database entries
 
 ## Development
