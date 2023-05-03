@@ -6,4 +6,4 @@ class TrackrConfig(AppConfig):
     name = 'trackr'
 
     def ready(self):
-        import trackr.signals
+        import trackr.signals  # noqa
