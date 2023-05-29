@@ -1,4 +1,4 @@
-asgiref==3.6.0
+asgiref==3.7.2
 Django==4.2.1
 django-ipware==5.0.0
 django-pgtrigger==4.6.0
